@@ -4,12 +4,13 @@
     <head>
         <title> SewonKim's Website </title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="styles/main.css">
-        <link rel="stylesheet" href="styles/specific.css">
+        <link rel="stylesheet" href="styles/index.css">
     </head>
 
-    <body>
+    <body style="background-image:url(images/piano1double.jpg); background-size:100%; display:flex; flex-direction:column; align-items:center;">
         <div id="top" class="floating">
             <h1 style="margin-left:10%;"> SewonKim </h1>
 
@@ -40,38 +41,26 @@
             </div>
         </div>
 
-        <div id="projects" class="floating">
-            <h2 style="margin-left:10%"> My Projects </h2>
-
-            <div style="border-top:1px solid white; margin-left:10%; margin-bottom:5%; margin-right:10%;">
-                <div style="display:flex; justify-content:space-between;">
-                    <a href="https://sewonkim0.github.io/MemoryTrainer/"> <h3>Memory Trainer</h3> </a>
-
-                    <p> February 2023 </p>
-                </div>
-
-                <p> Experimental web application for improving memory retention and efficiency, inspired by vocabulary memorization strategies </p>
-            </div>
-
-            <div style="border-top:1px solid white; margin-left:10%; margin-bottom:5%; margin-right:10%;">
-                <div style="display:flex; justify-content:space-between;">
-                    <a href="https://github.com/SewonKim0/QuickNotes"> <h3>QuickNotes</h3> </a>
-
-                    <p> January 2023 </p>
-                </div>
-
-                <p> Lightweight notetaking application made in C# windows forms <br>
-                    (Note: This application is not up to date, expect buggy performance) </p>
-            </div>
-        </div>
-
         <div id="music" class="floating">
             <div id="music-list" style="margin-left:10%">
                 <h2> My Music </h2>
 
                 <div class="music-entry">
                     <div style="width:50%">
-                        <a href="https://www.youtube.com/watch?v=j29N75wq6hM&list=PLK8AjScya4-uJSXUlQTUrLZeGUgXQM4SD"> <h3> Album 5 </h3> </a>
+                        <a href="music-sample.html"> Album 6 Preview </a>
+
+                        <p> First song of upcoming album </p>
+                    </div>
+
+                    <div class="album-images" direction="margin-right">
+                        <img src="images/icons/album5-1.jpg" width="150px" height="90px" alt="Cover for album 5-1">
+                        <img src="images/icons/album5-2.jpg" width="150px" height="90px" alt="Cover for album 5-2">
+                    </div>
+                </div>
+
+                <div class="music-entry">
+                    <div style="width:50%">
+                        <a href="https://www.youtube.com/watch?v=j29N75wq6hM&list=PLK8AjScya4-uJSXUlQTUrLZeGUgXQM4SD"> Album 5 </a>
 
                         <p> 12 compositions inspired by New York, made in first semester </p>
                     </div>
@@ -84,7 +73,7 @@
 
                 <div class="music-entry">
                     <div>
-                        <a href="https://www.youtube.com/watch?v=LtnMJPLGSS0&list=PLK8AjScya4-v90D2kJvJrOKSnn28sQi5v"> <h3> Album 4 </h3> </a>
+                        <a href="https://www.youtube.com/watch?v=LtnMJPLGSS0&list=PLK8AjScya4-v90D2kJvJrOKSnn28sQi5v"> Album 4 </a>
 
                         <p> My longest album, inspired by New Jersey's summer </p>
                     </div>
@@ -97,7 +86,7 @@
 
                 <div class="music-entry">
                     <div>
-                        <a href="https://www.youtube.com/watch?v=K9tgXfkRb_Y&list=PLK8AjScya4-sfvhO4_feOI2DEynbh5Vvc"> <h3> Album 3 </h3> </a>
+                        <a href="https://www.youtube.com/watch?v=K9tgXfkRb_Y&list=PLK8AjScya4-sfvhO4_feOI2DEynbh5Vvc"> Album 3 </a>
 
                         <p> The first album that I am willing to share publicly, made during my senior year in high school </p>
                     </div>
@@ -106,6 +95,31 @@
                         <img src="images/icons/album3-1.jpg" width="150px" height="90px" alt="Cover for album 3-1">
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div id="projects" class="floating">
+            <h2 style="margin-left:10%"> Recent Projects </h2>
+
+            <div style="border-top:1px solid white; margin-left:10%; margin-bottom:5%; margin-right:10%;">
+                <div style="display:flex; justify-content:space-between;">
+                    <a style="margin-top:2%;" href="https://sewonkim0.github.io/MemoryTrainer/"> Memory Trainer </a>
+
+                    <p style="margin-top:2%;"> February 2023 </p>
+                </div>
+
+                <p> Experimental web application for improving memory retention and efficiency, inspired by vocabulary memorization strategies </p>
+            </div>
+
+            <div style="border-top:1px solid white; margin-left:10%; margin-bottom:5%; margin-right:10%;">
+                <div style="display:flex; justify-content:space-between;">
+                    <a style="margin-top:2%;" href="https://github.com/SewonKim0/QuickNotes"> QuickNotes </a>
+
+                    <p style="margin-top:2%;"> January 2023 </p>
+                </div>
+
+                <p> Lightweight notetaking application made in C# windows forms <br>
+                    (Note: This application is not up to date, expect buggy performance) </p>
             </div>
         </div>
 
